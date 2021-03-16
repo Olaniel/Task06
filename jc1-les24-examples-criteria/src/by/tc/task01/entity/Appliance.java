@@ -7,7 +7,7 @@ public class Appliance {
 		
 	}
 
-	public Appliance(String parameters) {
+	public Appliance(String parameters) {// в угоду фабрике нельзя делать контрукторы, и поля классов тоже нельзя.
 		this.info = parameters;
 	}
 
